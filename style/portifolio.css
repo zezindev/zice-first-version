@@ -1,0 +1,37 @@
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+#portfolio-li{
+    margin: 0;
+    display: inline-block; 
+    list-style: none;
+    border-top: var(--primary-color);
+    border-left: var(--primary-color);
+    border-right: var(--primary-color);
+    border-bottom: 1px solid #FB2E00 ;
+    background-color: var(--primary-color);
+}
+.info{
+    text-align: center;
+    margin-top: 1%;
+}
+.info h1{
+    font-size: 70px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+span{
+    color: #FB2E00;
+}
+.info p{
+    color: var(--secondary-color);
+    line-height: 22px;
+}
+.carousel-inner{
+    margin-top: 7%;
+} 
+.zelt-carousel-item{
+    height: 550px;
+   
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h1, initial-scale=h" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/allstyle.css" />
+    <link rel="stylesheet" href="./style/hireme.css" />
+    <title>ZICE</title>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="./imgs/zice.png" alt="Zelt" class="logo" id="img-logo" />
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./aboutus.html">ABOUT US</a></li>
+          <li><a href="./portifolio.html">PORTFOLIO</a></li>
+          <li><a href="./services.html">SERVICES</a></li>
+          <li class="list-group-item active" id="hireme-li">
+            <a href="#">HIRE ME</a>
+          </li>
+          <img src="./imgs/moon.png" alt="moon" id="icon" />
+        </ul>
+      </nav>
+
+      <div class="info">
+        <h1><span>Contact </span>Form</h1>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-deck">
+            <div>
+              <form id="contact-form">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+              </form>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <div class="texts">
+                  <h5 class="card-title">
+                    <i class="fa-solid fa-location-dot"></i> <b>Adress</b>
+                  </h5>
+                  <p class="card-text">
+                    <a
+                      href="https://www.google.com.br/maps/place/915+Peel+St,+Montreal,+QC+H3B+4C9,+Canadá/@45.4972532,-73.5674908,395m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4cc7de4d42d2b497:0x7d6f2c9da5114433!2sRegião+Metropolitana+de+Montreal,+Quebec,+Canadá!3b1!8m2!3d45.4699445!4d-73.7852913!16s%2Fg%2F1q6409gpk!3m5!1s0x4cc91a5d3f41bfa5:0xeb9037e9bc346fb1!8m2!3d45.497335!4d-73.5674114!16s%2Fg%2F11c5l29yv6?entry=ttu"
+                    >
+                      915 Peel St Montreal, Quebec
+                    </a>
+                  </p>
+                </div>
+
+                <div class="texts">
+                  <h5 class="card-title">
+                    <i class="fa-solid fa-phone"></i> <b>Phone Number</b>
+                  </h5>
+                  <p class="card-text">
+                    <a href="https://wa.me/9999999-999">(99) 99999-999</a>
+                  </p>
+                </div>
+
+                <div class="texts">
+                  <h5 class="card-title">
+                    <i class="fa-regular fa-paper-plane"></i> <b>E-mail</b>
+                  </h5>
+                  <p class="card-text">
+                    <a href="mailto:zelt@contact.com">zice@contact.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/general.js"></script>
+    <script src="./js/hireme.js"></script>
+    <script src="./php/email.php"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
